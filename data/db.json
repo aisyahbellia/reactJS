@@ -1,0 +1,20 @@
+{
+  "cryptodata": [
+    {
+      "name": "BNB",
+      "code": "BNB",
+      "icon": "https://static.coinstats.app/coins/TetherfopnG.png",
+      "price": 412.1929684002507,
+      "percent_usd": -1.0598280333129273,
+      "id": 1
+    },
+    {
+      "name": "XRP",
+      "code": "XRP",
+      "icon": "https://static.coinstats.app/coins/XRPdnqGJ.png",
+      "price": 1.0792791639267891,
+      "percent_usd": -3.5751394991205045,
+      "id": 2
+    }
+  ]
+}
