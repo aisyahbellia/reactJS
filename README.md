@@ -4,12 +4,26 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+This app using dummy Rest API to processing the data. So, to use this project, we need to run the dummy rest API that already created.
+The dummy Rest API created in `data/db.json`.
+
+To access the Rest API run this script in your terminal:
+
+### `npx json-server --watch data/db.json --port 3000`
+
+To test if the Rest API already running, open this in your browser http://localhost:3001/cryptodata
+You will see page like this
+![image](https://user-images.githubusercontent.com/22749084/133083440-b728cb5b-d1f9-4623-be3e-5f29c72447fb.png)
+
+
+After run the Rest API, you need to re-run your project if your project already running.
 In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+System will suggest you to use another port because port 3000 already used for Rest API. Usually system will suggest to use port 3001.
+
+Open http://localhost:3001 to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
